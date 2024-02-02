@@ -1285,6 +1285,62 @@ html {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\]{
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\]{
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg\'\)\]{
+  background-image: url('../images/bg');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-heas\'\)\]{
+  background-image: url('../images/bg-heas');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header\'\)\]{
+  background-image: url('../images/bg-header');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header\.png\'\)\]{
+  background-image: url('../images/bg-header.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-des\.png\'\)\]{
+  background-image: url('../images/bg-header-des.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-desk\.png\'\)\]{
+  background-image: url('../images/bg-header-desk.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\]{
+  background-image: url('../images/bg-header-desktop.png');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
 .p-40{
   padding: 10rem;
 }
@@ -1527,4 +1583,22 @@ html {
 .hover\:brightness-125:hover{
   --tw-brightness: brightness(1.25);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 768px){
+  .md\:bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\]{
+    background-image: url('../images/bg-header-desktop.png');
+  }
+
+  .md\:bg-contain{
+    background-size: contain;
+  }
+
+  .md\:bg-top{
+    background-position: top;
+  }
+
+  .md\:bg-no-repeat{
+    background-repeat: no-repeat;
+  }
 }
